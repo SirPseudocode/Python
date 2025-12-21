@@ -10,4 +10,9 @@ print(type(y))
 
 print(k)
 print(l)
-print(m, end = ' ')
+print(m)
+
+a, b, c = "Orange", "Apple", "Banana"
+print(a)
+print(b)
+print(c, end = ' ')
