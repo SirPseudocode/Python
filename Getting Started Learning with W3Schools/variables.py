@@ -15,4 +15,11 @@ print(m)
 a, b, c = "Orange", "Apple", "Banana"
 print(a)
 print(b)
+print(c)
+print()
+
+fruits = ["apple", "cherry", "orange"]
+a, b, c = fruits
+print(a)
+print(b)
 print(c, end = ' ')
