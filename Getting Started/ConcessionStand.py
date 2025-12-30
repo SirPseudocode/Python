@@ -17,9 +17,9 @@ while True:
     food = input("Select an item (q to quit): ").lower()
     if(food == 'q'):
         break
-
-    cart.append(food)
-    total += menu[food]
+    elif menu.get(food) is not None:
+        cart.append(food)
+        total += menu.get(food)
 
 print("----- YOUR CART -----")
 for grocery in cart:
